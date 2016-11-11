@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B7E3ED121DD56E33007D43DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3ED111DD56E33007D43DF /* AppDelegate.swift */; };
-		B7E3ED141DD56E33007D43DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3ED131DD56E33007D43DF /* ViewController.swift */; };
-		B7E3ED171DD56E33007D43DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E3ED151DD56E33007D43DF /* Main.storyboard */; };
+		B7E3ED141DD56E33007D43DF /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3ED131DD56E33007D43DF /* CardsViewController.swift */; };
 		B7E3ED191DD56E33007D43DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E3ED181DD56E33007D43DF /* Assets.xcassets */; };
 		B7E3ED1C1DD56E33007D43DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E3ED1A1DD56E33007D43DF /* LaunchScreen.storyboard */; };
+		B7E3ED261DD573CE007D43DF /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E3ED251DD573CE007D43DF /* DraggableImageView.xib */; };
+		B7E3ED281DD57420007D43DF /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3ED271DD57420007D43DF /* DraggableImageView.swift */; };
+		B7E3ED2B1DD583D4007D43DF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3ED291DD583D4007D43DF /* ProfileViewController.swift */; };
+		B7E3ED2C1DD583D4007D43DF /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E3ED2A1DD583D4007D43DF /* ProfileViewController.xib */; };
+		B7E3ED311DD586E8007D43DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E3ED2F1DD586E8007D43DF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7E3ED0E1DD56E33007D43DF /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E3ED111DD56E33007D43DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7E3ED131DD56E33007D43DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7E3ED161DD56E33007D43DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E3ED131DD56E33007D43DF /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		B7E3ED181DD56E33007D43DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7E3ED1B1DD56E33007D43DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7E3ED1D1DD56E33007D43DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E3ED251DD573CE007D43DF /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		B7E3ED271DD57420007D43DF /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		B7E3ED291DD583D4007D43DF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B7E3ED2A1DD583D4007D43DF /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		B7E3ED301DD586E8007D43DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				B7E3ED111DD56E33007D43DF /* AppDelegate.swift */,
-				B7E3ED131DD56E33007D43DF /* ViewController.swift */,
-				B7E3ED151DD56E33007D43DF /* Main.storyboard */,
+				B7E3ED131DD56E33007D43DF /* CardsViewController.swift */,
 				B7E3ED181DD56E33007D43DF /* Assets.xcassets */,
 				B7E3ED1A1DD56E33007D43DF /* LaunchScreen.storyboard */,
 				B7E3ED1D1DD56E33007D43DF /* Info.plist */,
+				B7E3ED251DD573CE007D43DF /* DraggableImageView.xib */,
+				B7E3ED271DD57420007D43DF /* DraggableImageView.swift */,
+				B7E3ED291DD583D4007D43DF /* ProfileViewController.swift */,
+				B7E3ED2A1DD583D4007D43DF /* ProfileViewController.xib */,
+				B7E3ED2F1DD586E8007D43DF /* Main.storyboard */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -125,7 +137,9 @@
 			files = (
 				B7E3ED1C1DD56E33007D43DF /* LaunchScreen.storyboard in Resources */,
 				B7E3ED191DD56E33007D43DF /* Assets.xcassets in Resources */,
-				B7E3ED171DD56E33007D43DF /* Main.storyboard in Resources */,
+				B7E3ED311DD586E8007D43DF /* Main.storyboard in Resources */,
+				B7E3ED261DD573CE007D43DF /* DraggableImageView.xib in Resources */,
+				B7E3ED2C1DD583D4007D43DF /* ProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7E3ED141DD56E33007D43DF /* ViewController.swift in Sources */,
+				B7E3ED141DD56E33007D43DF /* CardsViewController.swift in Sources */,
+				B7E3ED281DD57420007D43DF /* DraggableImageView.swift in Sources */,
+				B7E3ED2B1DD583D4007D43DF /* ProfileViewController.swift in Sources */,
 				B7E3ED121DD56E33007D43DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,20 +160,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7E3ED151DD56E33007D43DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7E3ED161DD56E33007D43DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B7E3ED1A1DD56E33007D43DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B7E3ED1B1DD56E33007D43DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E3ED2F1DD586E8007D43DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E3ED301DD586E8007D43DF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
